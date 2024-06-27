@@ -89,7 +89,8 @@ middle_size_pizza_price = 218
 juice_price = 35
 b_day_cake_price = 350
 bottle_of_water = 21
-order_total_cost = (big_size_pizza_price * 4) + (middle_size_pizza_price * 2) + (juice_price * 4) + b_day_cake_price + (bottle_of_water * 3)
+order_total_cost = (big_size_pizza_price * 4) + (middle_size_pizza_price * 2) + (juice_price * 4) + b_day_cake_price + (
+            bottle_of_water * 3)
 print(f'Iryna\'s order total cost is: {order_total_cost} UAH')
 print("-" * 50)
 
@@ -103,7 +104,10 @@ print("-" * 50)
 all_photos_qty = 232
 one_page_photo_capacity = 8
 pages_in_album_total = all_photos_qty / one_page_photo_capacity
-print(f'Ihor will need {pages_in_album_total} pages.')
+if all_photos_qty % one_page_photo_capacity == 0:
+    print(f'Ihor will need {int(pages_in_album_total)} pages.')
+else:
+    print(f'Ihor will need {int(pages_in_album_total + 1)} pages.')
 print("-" * 50)
 
 # task 10
