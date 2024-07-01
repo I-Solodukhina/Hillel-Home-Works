@@ -53,7 +53,7 @@ print('-' * 50)
 
 
 def count_capitalized_words(text):
-    all_words = adventures_of_tom_sawyer.split()
+    all_words = text.split()
     capitalized_words = [word for word in all_words if word.istitle()]
     return len(capitalized_words)
 
@@ -87,18 +87,10 @@ print('-' * 50)
 # task 09
 """ Перевірте чи починається якесь речення з "By the time".
 """
-# Якщо можна шукати у змінній adventures_of_tom_sawyer яка є рядком, то код наступний:
-if "By the time" in adventures_of_tom_sawyer:
-    print('Yes, text "By the time" is present')
-else:
-    print('There is no such text')
+for element in adventures_of_tom_sawyer_sentences:
+    if element.startswith("By the time"):
+        print('Yes one of the sentences starts with the "By the time" text')
 
-# Якщо потрібно шукати саме у списку adventures_of_tom_sawyer, то код наступний:
-new_string_from_list = '. '.join(adventures_of_tom_sawyer_sentences)
-if "By the time" in new_string_from_list:
-    print('Yes, text "By the time" is present')
-else:
-    print('There is no such text')
 print('-' * 50)
 
 # task 10
