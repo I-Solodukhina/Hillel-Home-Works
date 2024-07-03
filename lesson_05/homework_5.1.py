@@ -44,6 +44,7 @@ car_data = {
     'Ford F-Series': ('gray', 2021, 3.5, 'pickup', 50000),
     'Nissan Titan': ('silver', 2018, 5.6, 'pickup', 35000)
 }
+
 search_criteria = (2017, 1.6, 36000)
 search_criteria_year = search_criteria[0]
 search_criteria_engine_volume = search_criteria[1]

@@ -31,4 +31,3 @@ indexes_of_people_records_to_check = [6, 10, 13]
 
 condition_check_result = all(people_records[index][2] >= 30 for index in indexes_of_people_records_to_check)
 print(f'Do all people in the modified list with record indexes 6, 10, 13 have age >=30? --> {condition_check_result}')
-
