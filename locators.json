@@ -1,0 +1,90 @@
+{
+    "HomeAboutContactsGuest log inSign In": {
+        "css": ".header.bg-basic-dark",
+        "xpath": "//header[contains(@class, \"header\") and contains(@class, \"bg-basic-dark\")]"
+    },
+    "HomeAboutContacts": {
+        "css": ".header_left.d-flex.align-items-center",
+        "xpath": "//div[contains(@class, \"header_left\") and contains(@class, \"d-flex\") and contains(@class, \"align-items-center\")]"
+    },
+    "Home": {
+        "css": ".btn.header-link.-active",
+        "xpath": "//a[contains(@class, \"btn\") and contains(@class, \"header-link\") and contains(@class, \"-active\")]"
+    },
+    "About": {
+        "css": ".btn.header-link",
+        "xpath": "//button[contains(@class, \"btn\") and contains(@class, \"header-link\")]"
+    },
+    "Contacts": {
+        "css": ".btn.header-link",
+        "xpath": "//button[contains(@class, \"btn\") and contains(@class, \"header-link\")]"
+    },
+    "Guest log inSign In": {
+        "css": ".header_right.d-flex.align-items-center",
+        "xpath": "//div[contains(@class, \"header_right\") and contains(@class, \"d-flex\") and contains(@class, \"align-items-center\")]"
+    },
+    "Guest log in": {
+        "css": ".header-link.-guest",
+        "xpath": "//button[contains(@class, \"header-link\") and contains(@class, \"-guest\")]"
+    },
+    "Sign In": {
+        "css": ".btn.btn-outline-white.header_signin",
+        "xpath": "//button[contains(@class, \"btn\") and contains(@class, \"btn-outline-white\") and contains(@class, \"header_signin\")]"
+    },
+    "Do more!With the help of the Hillel auto project, you will have the opportunity to get hands-on experience in manual testing.Sign up": {
+        "css": ".section.hero",
+        "xpath": "//section[contains(@class, \"section\") and contains(@class, \"hero\")]"
+    },
+    "Do more!": {
+        "css": ".hero-descriptor_title.display-2",
+        "xpath": "//h1[contains(@class, \"hero-descriptor_title\") and contains(@class, \"display-2\")]"
+    },
+    "With the help of the Hillel auto project, you will have the opportunity to get hands-on experience in manual testing.": {
+        "css": ".hero-descriptor_descr.lead",
+        "xpath": "//p[contains(@class, \"hero-descriptor_descr\") and contains(@class, \"lead\")]"
+    },
+    "Sign up": {
+        "css": ".hero-descriptor_btn.btn.btn-primary",
+        "xpath": "//button[contains(@class, \"hero-descriptor_btn\") and contains(@class, \"btn\") and contains(@class, \"btn-primary\")]"
+    },
+    "Log fuel expensesKeep track of your replacement schedule and plan your vehicle maintenance expenses in advance.": {
+        "css": ".col-12.col-lg-6",
+        "xpath": "//div[contains(@class, \"col-12\") and contains(@class, \"col-lg-6\")]"
+    },
+    "Log fuel expenses": {
+        "css": ".about-block_title.h2",
+        "xpath": "//p[contains(@class, \"about-block_title\") and contains(@class, \"h2\")]"
+    },
+    "Keep track of your replacement schedule and plan your vehicle maintenance expenses in advance.": {
+        "css": ".about-block_descr.lead",
+        "xpath": "//p[contains(@class, \"about-block_descr\") and contains(@class, \"lead\")]"
+    },
+    "Instructions and manualsWatch over 100 instructions and repair your car yourself.": {
+        "css": ".col-12.col-lg-6.mt-lg-0.mt-md-5.mt-sm-4.mt-3",
+        "xpath": "//div[contains(@class, \"col-12\") and contains(@class, \"col-lg-6\") and contains(@class, \"mt-lg-0\") and contains(@class, \"mt-md-5\") and contains(@class, \"mt-sm-4\") and contains(@class, \"mt-3\")]"
+    },
+    "Instructions and manuals": {
+        "css": ".about-block_title.h2",
+        "xpath": "//p[contains(@class, \"about-block_title\") and contains(@class, \"h2\")]"
+    },
+    "Watch over 100 instructions and repair your car yourself.": {
+        "css": ".about-block_descr.lead",
+        "xpath": "//p[contains(@class, \"about-block_descr\") and contains(@class, \"lead\")]"
+    },
+    "ithillel.uasupport@ithillel.ua": {
+        "css": ".col-md-6.d-flex.flex-column.align-items-center.align-items-md-end.justify-content-md-end.mb-2.mt-3.mt-md-0",
+        "xpath": "//div[contains(@class, \"col-md-6\") and contains(@class, \"d-flex\") and contains(@class, \"flex-column\") and contains(@class, \"align-items-center\") and contains(@class, \"align-items-md-end\") and contains(@class, \"justify-content-md-end\") and contains(@class, \"mb-2\") and contains(@class, \"mt-3\") and contains(@class, \"mt-md-0\")]"
+    },
+    "ithillel.ua": {
+        "css": ".contacts_link.display-4",
+        "xpath": "//a[contains(@class, \"contacts_link\") and contains(@class, \"display-4\")]"
+    },
+    "support@ithillel.ua": {
+        "css": ".contacts_link.h4",
+        "xpath": "//a[contains(@class, \"contacts_link\") and contains(@class, \"h4\")]"
+    },
+    "© 2021 Hillel IT schoolHillel auto developed in Hillel IT school for educational purposes of QA courses.": {
+        "css": ".footer.d-flex.align-items-center",
+        "xpath": "//footer[contains(@class, \"footer\") and contains(@class, \"d-flex\") and contains(@class, \"align-items-center\")]"
+    }
+}
