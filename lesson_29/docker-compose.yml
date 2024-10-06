@@ -1,0 +1,21 @@
+version: '3.8'
+services:
+  db:
+    image: postgres:16
+    environment:
+      - POSTGRES_USER=solodushka
+      - POSTGRES_PASSWORD=000000
+      - POSTGRES_DB=solodushka_db
+    ports:
+      - "5432:5432"
+  app:
+      build: .
+      command: pytest
+      environment:
+        POSTGRES_DB: 'solodushka_db'
+        POSTGRES_USER: 'solodushka'
+        POSTGRES_PASSWORD: '000000'
+        POSTGRES_HOST: db
+        POSTGRES_PORT: 5432
+      depends_on:
+          - db
