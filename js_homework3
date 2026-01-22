@@ -1,0 +1,5 @@
+function pow(x,y) {
+   return x ** y
+};
+
+console.log(pow(3,3));
