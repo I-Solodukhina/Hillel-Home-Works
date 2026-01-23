@@ -1,0 +1,25 @@
+function checkProbabilityTheory(count) {
+  let evenNumbers = 0;
+  let oddNumbers = 0;
+
+  for (let i = 0; i < count; i++) {
+    var randomNumber = Math.floor(Math.random() * (1000 - 100 + 1)) + 100;
+
+    if (randomNumber % 2 === 0) {
+      evenNumbers++;
+    } else {
+      oddNumbers++;
+    }
+  }
+
+  var evenNumbersPart = (evenNumbers / count) * 100;
+  var oddNumbersPart = (oddNumbers / count) * 100;
+
+  console.log("Кількість згенерованих чисел: " + count);
+  console.log("Парних чисел: " + evenNumbers);
+  console.log("Не парних чисел: " + oddNumbers);
+  console.log("Відсоток парних до не парних: " + evenNumbersPart + "% / " + oddNumbersPart + "%");
+}
+
+
+checkProbabilityTheory(75);
